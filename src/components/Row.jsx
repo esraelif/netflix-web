@@ -24,7 +24,7 @@ const Row = ({ title, fetchURL, rowID }) => {
     }
     const slideRight = () => {
         let slider = document.getElementById('slider' + rowID)
-        slider.scrollRight = slider.scrollRight - 500
+        slider.scrollLeft = slider.scrollLeft - 500
     }
 
     return (
